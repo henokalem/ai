@@ -1,0 +1,94 @@
+female(mum).
+female(kydd).
+female(elizabeth).
+female(margaret).
+female(diana).
+female(anne).
+female(sarah).
+female(zara).
+female(beatrice).
+
+male(george).
+male(spencer).
+male(philip).
+male(charles).
+male(mark).
+male(andrew).
+male(edward).
+male(william).
+male(harry).
+male(peter).
+male(eugenie).
+
+spouse(george, mum).
+child(elizabeth, george).
+child(margaret, george).
+child(elizabeth, mum).
+child(margaret, mum).
+
+spouse(elizabeth, philip).
+child(charles, elizabeth).
+child(anne, elizabeth).
+child(andrew, elizabeth).
+child(edward, elizabeth).
+child(charles, philip).
+child(anne, philip).
+child(andrew, philip).
+child(edward, philip).
+
+spouse(spencer, kydd).
+child(diana, spencer).
+child(diana, kydd).
+
+spouse(diana, charles).
+child(william, diana).
+child(harry, diana).
+child(william, charles).
+child(harry, charles).
+
+
+spouse(anne, mark).
+child(peter, anne).
+child(zara, anne).
+child(peter, mark).
+child(zara, mark).
+
+spouse(andrew, sarah).
+child(beatrice, andrew).
+child(eugenie, andrew).
+child(beatrice, sarah).
+child(eugenie, sarah).
+
+spouse(X, Y) :- spouse(Y, X).
+
+grandChild(A, B):-
+  child(C, B),
+  child(A, C).
+
+greatGrandparent(D, E):-
+  child(F, E),
+  child(G, F),
+  child(D, G).
+
+brother(A, B):-
+  male(A),
+  child(A, C),
+  child(B, C).
+
+sister(A, B):-
+  female(A),
+  child(A, C),
+  child(B, C).
+
+daughter(A, B):-
+  female(A),
+  child(A, B).
+
+son(A, B):-
+  male(A),
+  child(A, B).
+
+aunt(D, E):-
+  female(D),
+  sister(D, F),
+  child(E, F).
