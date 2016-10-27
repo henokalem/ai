@@ -1,0 +1,18 @@
+s --> np, vp.
+
+np --> det, n.
+np --> n.
+np --> det, adj, n.
+
+vp --> v, np.
+vp --> v.
+
+det --> [the].
+
+n --> [apple].
+n --> [man].
+
+adj --> [blue].
+
+v --> [eats].
+v --> [sings].
