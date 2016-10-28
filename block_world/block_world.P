@@ -1,9 +1,12 @@
+command --> s.
+
 s --> verb, np.
-s --> verb, np.
+s --> verb, np, pp.
 
 np --> det, noun, pp.
 np --> det, adj, noun.
 np --> det, noun.
+np --> det, adj, noun, pp.
 
 pp --> prep, np.
 

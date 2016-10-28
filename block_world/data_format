@@ -1,0 +1,186 @@
+[S [Verb  put] [NP [Det the] [Noun  cone] [PP [Prep on] [NP [Det the] [Adj red] [Noun  square]]]] [PP [Prep on] [NP [Det the] [Noun  square]]]]
+command([put,the,cone,on,the,red,square,on,the,square],[]).
+
+[S [Verb  take] [NP [Det the] [Noun  cone] [PP [Prep on] [NP [Det the] [Noun square]]]]]
+command([take,the,cone,on,the,square],[]).
+
+[S [Verb  take] [NP [Det the] [Noun  block]]]
+command([take,the,block],[]).
+
+[S [Verb  put] [NP [Det the] [Adj red] [Noun  cone]] [PP [Prep on] [NP [Det the] [Noun  square]]]]
+command([put,the,red,cone,on,the,square],[]).
+
+[S [Verb  put] [NP [Det the] [Noun  block] [PP [Prep on] [NP [Det the] [Adj blue] [Noun  square]]]] [PP [Prep on] [NP [Det the] [Noun  square]]]]
+command([put,the,block,on,the,blue,square,on,the,square],[]).
+
+[S [Verb  put] [NP [Det the] [Adj green] [Noun  cone]] [PP [Prep on] [NP [Det the] [Adj blue] [Noun  circle]]]]
+command([put,the,green,cone,on,the,blue,circle],[]).
+
+[S [Verb  put] [NP [Det the] [Adj green] [Noun  cone]] [PP [Prep on] [NP [Det the] [Adj red] [Noun  square]]]]
+command([put,the,green,cone,on,the,red,square],[]).
+
+[S [Verb  put] [NP [Det the] [Adj blue] [Noun  block]] [PP [Prep on] [NP [Det the] [Adj red] [Noun  square]]]]
+command([put,the,blue,block,on,the,red,square],[]).
+
+[S [Verb  put] [NP [Det the] [Adj red] [Noun  block]] [PP [Prep on] [NP [Det the] [Adj red] [Noun  square]]]]
+command([put,the,red,block,on,the,red,square],[]).
+
+[S [Verb  put] [NP [Det the] [Adj red] [Noun  cone] [PP [Prep on] [NP [Det the] [Adj green] [Noun  circle]]]] [PP [Prep on] [NP [Det the] [Noun square]]]]
+command([put,the,red,cone,on,the,green,circle,on,the,square],[]).
+
+[S [Verb  take] [NP [Det the] [Adj green] [Noun  cube] [PP [Prep on] [NP [Det the] [Adj red] [Noun  circle]]]]]
+command([take,the,green,cube,on,the,red,circle],[]).
+
+[S [Verb  take] [NP [Det the] [Adj blue] [Noun  cube] [PP [Prep on] [NP [Det the] [Adj green] [Noun  circle]]]]]
+command([take,the,blue,cube,on,the,green,circle],[]).
+
+[S [Verb  put] [NP [Det the] [Noun  block] [PP [Prep on] [NP [Det the] [Noun circle]]]] [PP [Prep on] [NP [Det the] [Adj red] [Noun  square]]]]
+command([put,the,block,on,the,circle,on,the,red,square],[]).
+
+[S [Verb  take] [NP [Det the] [Noun  cube]]]
+command([take,the,cube],[]).
+
+[S [Verb  take] [NP [Det the] [Noun  block]]]
+command([take,the,block],[]).
+
+[S [Verb  put] [NP [Det the] [Noun  block] [PP [Prep on] [NP [Det the] [Noun circle]]]] [PP [Prep on] [NP [Det the] [Noun  square]]]]
+command([put,the,block,on,the,circle,on,the,square],[]).
+
+[S [Verb  take] [NP [Det the] [Adj green] [Noun  block]]]
+command([take,the,green,block],[]).
+
+[S [Verb  take] [NP [Det the] [Noun  cube] [PP [Prep on] [NP [Det the] [Adj red] [Noun  circle]]]]]
+command([take,the,cube,on,the,red,circle],[]).
+
+[S [Verb  put] [NP [Det the] [Noun  block]] [PP [Prep on] [NP [Det the] [Adj red] [Noun  square]]]]
+command([put,the,block,on,the,red,square],[]).
+
+[S [Verb  put] [NP [Det the] [Noun  block] [PP [Prep on] [NP [Det the] [Noun square]]]] [PP [Prep on] [NP [Det the] [Adj red] [Noun  circle]]]]
+command([put,the,block,on,the,square,on,the,red,circle],[]).
+
+[S [Verb  take] [NP [Det the] [Noun  cube]]]
+command([take,the,cube],[]).
+
+[S [Verb  put] [NP [Det the] [Adj red] [Noun  cone]] [PP [Prep on] [NP [Det the] [Noun  square]]]]
+command([put,the,red,cone,on,the,square],[]).
+
+[S [Verb  put] [NP [Det the] [Noun  cube] [PP [Prep on] [NP [Det the] [Noun circle]]]] [PP [Prep on] [NP [Det the] [Adj red] [Noun  circle]]]]
+command([put,the,cube,on,the,circle,on,the,red,circle],[]).
+
+[S [Verb  put] [NP [Det the] [Adj blue] [Noun  block]] [PP [Prep on] [NP [Det the] [Adj blue] [Noun  square]]]]
+command([put,the,blue,block,on,the,blue,square],[]).
+
+[S [Verb  take] [NP [Det the] [Noun  block] [PP [Prep on] [NP [Det the] [Noun square]]]]]
+command([take,the,block,on,the,square],[]).
+
+[S [Verb  take] [NP [Det the] [Adj red] [Noun  block]]]
+command([take,the,red,block],[]).
+
+[S [Verb  take] [NP [Det the] [Adj red] [Noun  cube] [PP [Prep on] [NP [Det the] [Noun  square]]]]]
+command([take,the,red,cube,on,the,square],[]).
+
+[S [Verb  put] [NP [Det the] [Noun  cone] [PP [Prep on] [NP [Det the] [Adj red] [Noun  square]]]] [PP [Prep on] [NP [Det the] [Adj red] [Noun square]]]]
+command([put,the,cone,on,the,red,square,on,the,red,square],[]).
+
+[S [Verb  put] [NP [Det the] [Noun  block]] [PP [Prep on] [NP [Det the] [Adj red] [Noun  circle]]]]
+command([put,the,block,on,the,red,circle],[]).
+
+[S [Verb  take] [NP [Det the] [Adj green] [Noun  block]]]
+command([take,the,green,block],[]). #Tested till here
+
+[S [Verb  put] [NP [Det the] [Noun  block]] [PP [Prep on] [NP [Det the] [Adj red] [Noun  circle]]]]
+command([put,the,block,on,the,red,circle],[]). #Not tested from here
+
+[S [Verb  put] [NP [Det the] [Adj blue] [Noun  cube]] [PP [Prep on] [NP [Det the] [Adj red] [Noun  square]]]]
+command([put,the,cube,on,the,red,square],[]).
+
+[S [Verb  put] [NP [Det the] [Adj blue] [Noun  block]] [PP [Prep on] [NP [Det the] [Adj blue] [Noun  square]]]]
+command([put,the,blue,block,on,the,blue,square],[]).
+
+[S [Verb  take] [NP [Det the] [Noun  cone]]]
+command([take,the,cone],[]).
+
+[S [Verb  put] [NP [Det the] [Noun  cone] [PP [Prep on] [NP [Det the] [Adj red] [Noun  circle]]]] [PP [Prep on] [NP [Det the] [Noun  square]]]]
+command([put,the,cone,on,the,red,circle,on,the,square],[]).
+
+[S [Verb  take] [NP [Det the] [Adj green] [Noun  block]]]
+command([take,the,green,block],[]).
+
+[S [Verb  put] [NP [Det the] [Noun  cone] [PP [Prep on] [NP [Det the] [Noun square]]]] [PP [Prep on] [NP [Det the] [Adj red] [Noun  square]]]]
+command([put,the,cone,on,the,square,on,the,red,square],[]).
+
+[S [Verb  put] [NP [Det the] [Noun  cube] [PP [Prep on] [NP [Det the] [Noun square]]]] [PP [Prep on] [NP [Det the] [Noun  circle]]]]
+command([put,the,cube,on,the,square,on,the,circle],[]).
+
+[S [Verb  take] [NP [Det the] [Noun  block] [PP [Prep on] [NP [Det the] [Adj red] [Noun  circle]]]]]
+command([take,the,block,on,the,red,circle],[]).
+
+[S [Verb  take] [NP [Det the] [Noun  block]]]
+command([take,the,block],[]).
+
+[S [Verb  put] [NP [Det the] [Adj red] [Noun  cube]] [PP [Prep on] [NP [Det the] [Adj red] [Noun  square]]]]
+command([put,the,red,cube,on,the,red,square],[]).
+
+[S [Verb  take] [NP [Det the] [Adj blue] [Noun  block]]]
+command([take,the,blue,block],[]).
+
+[S [Verb  take] [NP [Det the] [Noun  block]]]
+command([take,the,block],[]).
+
+[S [Verb  take] [NP [Det the] [Adj green] [Noun  block]]]
+[S [Verb  put] [NP [Det the] [Adj blue] [Noun  cube]] [PP [Prep on] [NP [Det the] [Noun  square]]]]
+[S [Verb  put] [NP [Det the] [Noun  block] [PP [Prep on] [NP [Det the] [Noun square]]]] [PP [Prep on] [NP [Det the] [Adj blue] [Noun  circle]]]]
+[S [Verb  put] [NP [Det the] [Noun  cube] [PP [Prep on] [NP [Det the] [Adj red] [Noun  circle]]]] [PP [Prep on] [NP [Det the] [Adj red] [Noun square]]]]
+[S [Verb  take] [NP [Det the] [Adj red] [Noun  block]]]
+[S [Verb  put] [NP [Det the] [Adj blue] [Noun  cube]] [PP [Prep on] [NP [Det the] [Adj green] [Noun  circle]]]]
+[S [Verb  put] [NP [Det the] [Adj red] [Noun  block]] [PP [Prep on] [NP [Det the] [Adj blue] [Noun  circle]]]]
+[S [Verb  put] [NP [Det the] [Noun  cube]] [PP [Prep on] [NP [Det the] [Noun square]]]]
+[S [Verb  put] [NP [Det the] [Adj blue] [Noun  cone] [PP [Prep on] [NP [Det the] [Noun  square]]]] [PP [Prep on] [NP [Det the] [Noun  square]]]]
+[S [Verb  put] [NP [Det the] [Noun  cone] [PP [Prep on] [NP [Det the] [Adj red] [Noun  circle]]]] [PP [Prep on] [NP [Det the] [Noun  square]]]]
+[S [Verb  put] [NP [Det the] [Adj blue] [Noun  block]] [PP [Prep on] [NP [Det the] [Adj red] [Noun  circle]]]]
+[S [Verb  put] [NP [Det the] [Noun  cube] [PP [Prep on] [NP [Det the] [Adj red] [Noun  circle]]]] [PP [Prep on] [NP [Det the] [Noun  circle]]]]
+[S [Verb  take] [NP [Det the] [Noun  cube]]]
+[S [Verb  put] [NP [Det the] [Adj blue] [Noun  cone]] [PP [Prep on] [NP [Det the] [Noun  circle]]]]
+[S [Verb  take] [NP [Det the] [Noun  cone]]]
+[S [Verb  put] [NP [Det the] [Adj blue] [Noun  cone] [PP [Prep on] [NP [Det the] [Adj red] [Noun  circle]]]] [PP [Prep on] [NP [Det the] [Noun square]]]]
+[S [Verb  put] [NP [Det the] [Adj red] [Noun  cube]] [PP [Prep on] [NP [Det the] [Adj red] [Noun  square]]]]
+[S [Verb  put] [NP [Det the] [Noun  block]] [PP [Prep on] [NP [Det the] [Adj blue] [Noun  circle]]]]
+[S [Verb  take] [NP [Det the] [Noun  cube] [PP [Prep on] [NP [Det the] [Noun circle]]]]]
+[S [Verb  put] [NP [Det the] [Noun  cube] [PP [Prep on] [NP [Det the] [Noun circle]]]] [PP [Prep on] [NP [Det the] [Noun  circle]]]]
+[S [Verb  put] [NP [Det the] [Noun  block]] [PP [Prep on] [NP [Det the] [Adj red] [Noun  square]]]]
+[S [Verb  take] [NP [Det the] [Noun  block] [PP [Prep on] [NP [Det the] [Noun circle]]]]]
+[S [Verb  put] [NP [Det the] [Adj green] [Noun  block]] [PP [Prep on] [NP [Det the] [Adj green] [Noun  square]]]]
+[S [Verb  take] [NP [Det the] [Adj red] [Noun  block]]]
+[S [Verb  take] [NP [Det the] [Noun  cone]]]
+[S [Verb  put] [NP [Det the] [Noun  cube]] [PP [Prep on] [NP [Det the] [Noun square]]]]
+[S [Verb  take] [NP [Det the] [Adj red] [Noun  cone]]]
+[S [Verb  put] [NP [Det the] [Noun  cone] [PP [Prep on] [NP [Det the] [Noun square]]]] [PP [Prep on] [NP [Det the] [Adj red] [Noun  circle]]]]
+[S [Verb  put] [NP [Det the] [Adj red] [Noun  cone]] [PP [Prep on] [NP [Det the] [Noun  circle]]]]
+[S [Verb  put] [NP [Det the] [Noun  cone] [PP [Prep on] [NP [Det the] [Noun circle]]]] [PP [Prep on] [NP [Det the] [Adj red] [Noun  circle]]]]
+[S [Verb  take] [NP [Det the] [Adj red] [Noun  block] [PP [Prep on] [NP [Det the] [Adj blue] [Noun  square]]]]]
+[S [Verb  take] [NP [Det the] [Adj red] [Noun  block]]]
+[S [Verb  take] [NP [Det the] [Noun  block]]]
+[S [Verb  put] [NP [Det the] [Adj red] [Noun  block]] [PP [Prep on] [NP [Det the] [Adj green] [Noun  circle]]]]
+[S [Verb  put] [NP [Det the] [Noun  block] [PP [Prep on] [NP [Det the] [Noun circle]]]] [PP [Prep on] [NP [Det the] [Noun  circle]]]]
+[S [Verb  put] [NP [Det the] [Noun  cone] [PP [Prep on] [NP [Det the] [Noun circle]]]] [PP [Prep on] [NP [Det the] [Adj red] [Noun  circle]]]]
+[S [Verb  put] [NP [Det the] [Adj red] [Noun  block]] [PP [Prep on] [NP [Det the] [Noun  circle]]]]
+[S [Verb  put] [NP [Det the] [Noun  cone]] [PP [Prep on] [NP [Det the] [Noun square]]]]
+[S [Verb  put] [NP [Det the] [Noun  block] [PP [Prep on] [NP [Det the] [Adj blue] [Noun  square]]]] [PP [Prep on] [NP [Det the] [Noun  square]]]]
+[S [Verb  put] [NP [Det the] [Noun  cube]] [PP [Prep on] [NP [Det the] [Adj red] [Noun  circle]]]]
+[S [Verb  take] [NP [Det the] [Adj red] [Noun  block]]]
+[S [Verb  put] [NP [Det the] [Adj red] [Noun  block] [PP [Prep on] [NP [Det the] [Noun  circle]]]] [PP [Prep on] [NP [Det the] [Adj blue] [Noun square]]]]
+[S [Verb  put] [NP [Det the] [Noun  cube] [PP [Prep on] [NP [Det the] [Adj red] [Noun  square]]]] [PP [Prep on] [NP [Det the] [Noun  circle]]]]
+[S [Verb  put] [NP [Det the] [Adj blue] [Noun  cone]] [PP [Prep on] [NP [Det the] [Adj blue] [Noun  circle]]]]
+[S [Verb  put] [NP [Det the] [Noun  block]] [PP [Prep on] [NP [Det the] [Noun square]]]]
+[S [Verb  put] [NP [Det the] [Noun  cube]] [PP [Prep on] [NP [Det the] [Noun circle]]]]
+[S [Verb  take] [NP [Det the] [Adj green] [Noun  block]]]
+[S [Verb  put] [NP [Det the] [Adj red] [Noun  cone] [PP [Prep on] [NP [Det the] [Noun  square]]]] [PP [Prep on] [NP [Det the] [Noun  circle]]]]
+[S [Verb  put] [NP [Det the] [Noun  block]] [PP [Prep on] [NP [Det the] [Adj red] [Noun  circle]]]]
+[S [Verb  put] [NP [Det the] [Adj blue] [Noun  cone]] [PP [Prep on] [NP [Det the] [Adj red] [Noun  square]]]]
+[S [Verb  put] [NP [Det the] [Adj red] [Noun  cone]] [PP [Prep on] [NP [Det the] [Noun  circle]]]]
+[S [Verb  put] [NP [Det the] [Adj blue] [Noun  cone] [PP [Prep on] [NP [Det the] [Adj red] [Noun  circle]]]] [PP [Prep on] [NP [Det the] [Noun circle]]]]
+[S [Verb  take] [NP [Det the] [Adj blue] [Noun  cone]]]
+[S [Verb  put] [NP [Det the] [Adj red] [Noun  block]] [PP [Prep on] [NP [Det the] [Adj green] [Noun  circle]]]]
+[S [Verb  put] [NP [Det the] [Adj green] [Noun  block]] [PP [Prep on] [NP [Det the] [Adj red] [Noun  square]]]]
+[S [Verb  put] [NP [Det the] [Noun  cube]] [PP [Prep on] [NP [Det the] [Adj green] [Noun  square]]]]
+[S [Verb  take] [NP [Det the] [Adj blue] [Noun  block]]]
