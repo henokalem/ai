@@ -1,4 +1,5 @@
-command --> s.
+command(X) :-
+  s(X,[]).
 
 s --> verb, np.
 s --> verb, np, pp.
