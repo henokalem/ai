@@ -1,18 +1,25 @@
-s --> np, vp.
+s --> verb, np.
+s --> verb, np.
 
-np --> det, n.
-np --> n.
-np --> det, adj, n.
+np --> det, noun, pp.
+np --> det, adj, noun.
+np --> det, noun.
 
-vp --> v, np.
-vp --> v.
+pp --> prep, np.
 
 det --> [the].
 
-n --> [apple].
-n --> [man].
+noun --> [block].
+noun --> [circle].
+noun --> [cone].
+noun --> [square].
+noun --> [cube].
 
+verb --> [put].
+verb --> [take].
+
+adj --> [green].
+adj --> [red].
 adj --> [blue].
 
-v --> [eats].
-v --> [sings].
+prep --> [on].
