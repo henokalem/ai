@@ -88,7 +88,40 @@ son(A, B):-
   male(A),
   child(A, B).
 
-aunt(D, E):-
-  female(D),
-  sister(D, F),
-  child(E, F).
+aunt(A, B):-
+  female(A),
+  sister(A, C),
+  child(B, C),
+  C \= A.
+
+uncle(A, B):-
+  male(A),
+  brother(A, C),
+  child(B, C),
+  C \= A.
+
+brotherInLaw(A, B):-
+  male(A),
+  spouse(B, C),
+  brother(A, C).
+
+brotherInLaw(A, B):-
+  male(A),
+  brotherInLaw(B, A).
+
+sisterInLaw(A, B):-
+  female(A),
+  spouse(B, C),
+  sister(A, C).
+
+sisterInLaw(A, B):-
+  female(A),
+  sisterInLaw(B, A).
+
+firstCousin(A, B):-
+  aunt(C, A),
+  child(B, C).
+
+firstCousin(A, B):-
+  uncle(C, A),
+  child(B, C).
